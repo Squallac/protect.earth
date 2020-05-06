@@ -1,25 +1,29 @@
 <template>
   <div class="text-gray-800 antialiased">
-    <country-selector />
-    <navigation />
+    <div class="relative">
+      <country-selector />
+    </div>
+    <div class="relative">
+      <navigation />
 
-    <main>
-      <hero-with-cards />
+      <main>
+        <hero-with-cards />
 
-      <display-categories />
+        <display-categories />
 
-      <working-is-a-pleasure />
+        <working-is-a-pleasure />
 
-      <a-growing-company />
+        <a-growing-company />
 
-      <team />
+        <team />
 
-      <build-something />
+        <build-something />
 
-      <work-with-us></work-with-us>
-    </main>
+        <work-with-us></work-with-us>
+      </main>
 
-    <page-footer />
+      <page-footer />
+    </div>
   </div>
 </template>
 
